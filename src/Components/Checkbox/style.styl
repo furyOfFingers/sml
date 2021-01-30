@@ -1,0 +1,33 @@
+.container-checkbox
+  display flex
+  align-self flex-end
+
+.checkbox
+  display flex
+  width 40px
+  height 20px
+  background-color rgb(233, 232, 228)
+  border-radius 10px
+  &.checkbox-checked
+    background-color rgb(255, 161, 80)
+
+.checkbox-marker
+  position relative
+  width 16px
+  height 16px
+  top 2px
+  left 2px
+  background-color white
+  border-radius 8px
+  &.checkbox-marker-checked
+    left 22px
+
+.with-ndfl, .without-ndfl
+  color rgb(51, 51, 51)
+  font bold normal normal 14px/17px Roboto, sans-serif
+.with-ndfl
+  margin-left 10px
+.without-ndfl
+  margin-right 10px
+.ndfl-checked
+  color rgb(233, 232, 228)

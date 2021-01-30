@@ -1,0 +1,35 @@
+.container-icon
+  display flex
+  position relative
+  &:hover
+    cursor pointer
+    .tooltip
+      display block
+
+.icon
+  position relative
+  width 20px
+  height 20px
+  margin-left 10px
+  background-repeat no-repeat
+  background-size cover
+  z-index $z-index-2
+
+.name
+  &__check
+    top -1px
+    margin-right 4px
+
+.tooltip
+  display none
+  position absolute
+  top 20px
+  left 20px
+  padding 20px 10px
+  min-width 200px
+  background-color rgb(85, 110, 167)
+  color white
+  font normal normal normal 14px/17px Roboto, sans-serif
+  z-index 2
+.tooltip-show
+  display block
